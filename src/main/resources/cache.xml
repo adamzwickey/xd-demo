@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cache PUBLIC "-//GemStone Systems, Inc.//GemFire Declarative Cache 7.0//EN" "http://www.gemstone.com/dtd/cache7_0.dtd">
+
+
+<cache >
+	<!-- Server Config -->
+	<cache-server />
+		
+	<region name="Stores" refid="PARTITION" />
+
+</cache>
